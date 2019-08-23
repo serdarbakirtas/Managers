@@ -3,9 +3,6 @@ import Foundation
 class ImageNode {
     
     let value: String?
-    var previous: ImageNode?
-    var next: ImageNode?
-    var data: Data?
     
     init(_ value: String) {
         self.value = value
