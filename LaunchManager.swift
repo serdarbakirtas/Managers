@@ -9,6 +9,7 @@ class LaunchManager {
  
     func launch(_ application: UIApplication, launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
         
+        // TODO Developer can implement some helpers
 //        FirebaseHelper.configure()
 //        GoogleHelper.configure()
         initializeLogger()
