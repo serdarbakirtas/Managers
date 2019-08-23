@@ -11,7 +11,8 @@ class LanguageManager {
 
         initializeLayout(window)
     }
-    
+
+    // Only UIView is changed direction
     func initializeLayout(_ window: UIWindow?) {
         
         if window?.cuiIsLayoutDirectionRightToLeft == true {
